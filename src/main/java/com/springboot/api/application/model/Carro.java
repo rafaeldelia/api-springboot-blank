@@ -27,6 +27,7 @@ public class Carro {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nome;
+	private String descricao;
 	private String tipo;
 	private String urlFoto;
 	private String urlVideo;
